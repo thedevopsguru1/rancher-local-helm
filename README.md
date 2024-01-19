@@ -3,7 +3,7 @@
 Link: https://artifacthub.io/packages/helm/rancher-stable/rancher?modal=install
 ![image](https://github.com/thedevopsguru1/rancher-local-helm/assets/126810742/216d95b5-8795-4400-97b9-d52b01dc4882)
 
-### open the chart.yaml and update the kubeVersion: < 1.27.9
+### open the chart.yaml and update the kubeVersion: 1.28.5
 
 ```
 apiVersion: v2
@@ -13,7 +13,7 @@ home: https://rancher.com
 icon: https://github.com/rancher/ui/blob/master/public/assets/images/logos/welcome-cow.svg
 keywords:
 - rancher
-kubeVersion: < 1.27.9
+kubeVersion: 1.28.5
 maintainers:
 - email: charts@rancher.com
   name: Rancher Labs
